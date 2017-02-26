@@ -14,6 +14,9 @@
 		389C87A11E6375F7009268B7 /* TanouraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87A01E6375F7009268B7 /* TanouraTests.swift */; };
 		389C87AC1E6375F7009268B7 /* TanouraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87AB1E6375F7009268B7 /* TanouraUITests.swift */; };
 		389C87BA1E6376CA009268B7 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */; };
+		3FA137891E0767285F0A3598 /* Pods_TanouraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE5B95D1582085541EA68C3 /* Pods_TanouraTests.framework */; };
+		A24718DDD8507F3B7A9327A1 /* Pods_Tanoura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37AF0AB2F16CAA78AB237BB /* Pods_Tanoura.framework */; };
+		C70AE68D3D08A1F7B1B0454C /* Pods_TanouraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941B4A8D238E6A32462A8E8 /* Pods_TanouraUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FE5B95D1582085541EA68C3 /* Pods_TanouraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanouraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		389C87851E6375F7009268B7 /* Tanoura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tanoura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389C87881E6375F7009268B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389C87901E6375F7009268B7 /* Tanoura.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tanoura.xcdatamodel; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		389C87AB1E6375F7009268B7 /* TanouraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanouraUITests.swift; sourceTree = "<group>"; };
 		389C87AD1E6375F7009268B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		5A917976E08D80C1AB0A9D4D /* Pods-TanouraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanouraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TanouraTests/Pods-TanouraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6941B4A8D238E6A32462A8E8 /* Pods_TanouraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanouraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D20EF47655F0C88AF9A52D3 /* Pods-Tanoura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tanoura.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tanoura/Pods-Tanoura.release.xcconfig"; sourceTree = "<group>"; };
+		7E0094AEAD2A88BFD88A5C16 /* Pods-TanouraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanouraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TanouraTests/Pods-TanouraTests.release.xcconfig"; sourceTree = "<group>"; };
+		A37AF0AB2F16CAA78AB237BB /* Pods_Tanoura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tanoura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ED35E2DD10E7A77E87738D /* Pods-TanouraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanouraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TanouraUITests/Pods-TanouraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E969DCAF9A83CC324227E1EE /* Pods-TanouraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanouraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TanouraUITests/Pods-TanouraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFDE376DB0F78B5D035DD6A2 /* Pods-Tanoura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tanoura.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tanoura/Pods-Tanoura.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24718DDD8507F3B7A9327A1 /* Pods_Tanoura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA137891E0767285F0A3598 /* Pods_TanouraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70AE68D3D08A1F7B1B0454C /* Pods_TanouraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				389C879F1E6375F7009268B7 /* TanouraTests */,
 				389C87AA1E6375F7009268B7 /* TanouraUITests */,
 				389C87861E6375F7009268B7 /* Products */,
+				BF7889DA32B66AD4339F3308 /* Pods */,
+				A0D0C4875120E3815E2F8AF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +150,29 @@
 			name = Coordinators;
 			sourceTree = "<group>";
 		};
+		A0D0C4875120E3815E2F8AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF0AB2F16CAA78AB237BB /* Pods_Tanoura.framework */,
+				1FE5B95D1582085541EA68C3 /* Pods_TanouraTests.framework */,
+				6941B4A8D238E6A32462A8E8 /* Pods_TanouraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7889DA32B66AD4339F3308 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE376DB0F78B5D035DD6A2 /* Pods-Tanoura.debug.xcconfig */,
+				6D20EF47655F0C88AF9A52D3 /* Pods-Tanoura.release.xcconfig */,
+				5A917976E08D80C1AB0A9D4D /* Pods-TanouraTests.debug.xcconfig */,
+				7E0094AEAD2A88BFD88A5C16 /* Pods-TanouraTests.release.xcconfig */,
+				C2ED35E2DD10E7A77E87738D /* Pods-TanouraUITests.debug.xcconfig */,
+				E969DCAF9A83CC324227E1EE /* Pods-TanouraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389C87B01E6375F7009268B7 /* Build configuration list for PBXNativeTarget "Tanoura" */;
 			buildPhases = (
+				602D190BAD0F8953288B88EB /* [CP] Check Pods Manifest.lock */,
 				389C87811E6375F7009268B7 /* Sources */,
 				389C87821E6375F7009268B7 /* Frameworks */,
 				389C87831E6375F7009268B7 /* Resources */,
+				BD195F42E2F36BCBFFAE14B4 /* [CP] Embed Pods Frameworks */,
+				C7309F16485B8DCF83D4B1A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389C87B31E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraTests" */;
 			buildPhases = (
+				D4B7EADCE1CBDE10A01868C5 /* [CP] Check Pods Manifest.lock */,
 				389C87981E6375F7009268B7 /* Sources */,
 				389C87991E6375F7009268B7 /* Frameworks */,
 				389C879A1E6375F7009268B7 /* Resources */,
+				D55ED347BDFFC61EAEA49079 /* [CP] Embed Pods Frameworks */,
+				8517E7AF328C213DE801C5C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389C87B61E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraUITests" */;
 			buildPhases = (
+				274670DAF98B6891FEC99008 /* [CP] Check Pods Manifest.lock */,
 				389C87A31E6375F7009268B7 /* Sources */,
 				389C87A41E6375F7009268B7 /* Frameworks */,
 				389C87A51E6375F7009268B7 /* Resources */,
+				5230CB7380EC2B52816205FF /* [CP] Embed Pods Frameworks */,
+				E5BF728D8E659F381790E331 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274670DAF98B6891FEC99008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5230CB7380EC2B52816205FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanouraUITests/Pods-TanouraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602D190BAD0F8953288B88EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8517E7AF328C213DE801C5C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanouraTests/Pods-TanouraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD195F42E2F36BCBFFAE14B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tanoura/Pods-Tanoura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7309F16485B8DCF83D4B1A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tanoura/Pods-Tanoura-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B7EADCE1CBDE10A01868C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D55ED347BDFFC61EAEA49079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanouraTests/Pods-TanouraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BF728D8E659F381790E331 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanouraUITests/Pods-TanouraUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		389C87811E6375F7009268B7 /* Sources */ = {
@@ -358,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,7 +600,9 @@
 		};
 		389C87B11E6375F7009268B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDE376DB0F78B5D035DD6A2 /* Pods-Tanoura.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7CD55P55JM;
 				INFOPLIST_FILE = Tanoura/Info.plist;
@@ -426,7 +615,9 @@
 		};
 		389C87B21E6375F7009268B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D20EF47655F0C88AF9A52D3 /* Pods-Tanoura.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7CD55P55JM;
 				INFOPLIST_FILE = Tanoura/Info.plist;
@@ -439,6 +630,7 @@
 		};
 		389C87B41E6375F7009268B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A917976E08D80C1AB0A9D4D /* Pods-TanouraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +646,7 @@
 		};
 		389C87B51E6375F7009268B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0094AEAD2A88BFD88A5C16 /* Pods-TanouraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +662,7 @@
 		};
 		389C87B71E6375F7009268B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2ED35E2DD10E7A77E87738D /* Pods-TanouraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7CD55P55JM;
@@ -483,6 +677,7 @@
 		};
 		389C87B81E6375F7009268B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E969DCAF9A83CC324227E1EE /* Pods-TanouraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7CD55P55JM;
@@ -514,6 +709,7 @@
 				389C87B21E6375F7009268B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		389C87B31E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +718,7 @@
 				389C87B51E6375F7009268B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		389C87B61E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +727,7 @@
 				389C87B81E6375F7009268B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
