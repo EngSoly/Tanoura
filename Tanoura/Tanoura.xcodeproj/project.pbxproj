@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389C87891E6375F7009268B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87881E6375F7009268B7 /* AppDelegate.swift */; };
+		389C87911E6375F7009268B7 /* Tanoura.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 389C878F1E6375F7009268B7 /* Tanoura.xcdatamodeld */; };
+		389C87931E6375F7009268B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389C87921E6375F7009268B7 /* Assets.xcassets */; };
+		389C87961E6375F7009268B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C87941E6375F7009268B7 /* LaunchScreen.storyboard */; };
+		389C87A11E6375F7009268B7 /* TanouraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87A01E6375F7009268B7 /* TanouraTests.swift */; };
+		389C87AC1E6375F7009268B7 /* TanouraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87AB1E6375F7009268B7 /* TanouraUITests.swift */; };
+		389C87BA1E6376CA009268B7 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389C879D1E6375F7009268B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389C877D1E6375F7009268B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389C87841E6375F7009268B7;
+			remoteInfo = Tanoura;
+		};
+		389C87A81E6375F7009268B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389C877D1E6375F7009268B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389C87841E6375F7009268B7;
+			remoteInfo = Tanoura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389C87851E6375F7009268B7 /* Tanoura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tanoura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389C87881E6375F7009268B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		389C87901E6375F7009268B7 /* Tanoura.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tanoura.xcdatamodel; sourceTree = "<group>"; };
+		389C87921E6375F7009268B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		389C87951E6375F7009268B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		389C87971E6375F7009268B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389C879C1E6375F7009268B7 /* TanouraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanouraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389C87A01E6375F7009268B7 /* TanouraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanouraTests.swift; sourceTree = "<group>"; };
+		389C87A21E6375F7009268B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389C87A71E6375F7009268B7 /* TanouraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanouraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389C87AB1E6375F7009268B7 /* TanouraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanouraUITests.swift; sourceTree = "<group>"; };
+		389C87AD1E6375F7009268B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389C87821E6375F7009268B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C87991E6375F7009268B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C87A41E6375F7009268B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		389C877C1E6375F7009268B7 = {
+			isa = PBXGroup;
+			children = (
+				389C87871E6375F7009268B7 /* Tanoura */,
+				389C879F1E6375F7009268B7 /* TanouraTests */,
+				389C87AA1E6375F7009268B7 /* TanouraUITests */,
+				389C87861E6375F7009268B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389C87861E6375F7009268B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389C87851E6375F7009268B7 /* Tanoura.app */,
+				389C879C1E6375F7009268B7 /* TanouraTests.xctest */,
+				389C87A71E6375F7009268B7 /* TanouraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389C87871E6375F7009268B7 /* Tanoura */ = {
+			isa = PBXGroup;
+			children = (
+				389C87BB1E637745009268B7 /* Coordinators */,
+				389C87881E6375F7009268B7 /* AppDelegate.swift */,
+				389C87921E6375F7009268B7 /* Assets.xcassets */,
+				389C87941E6375F7009268B7 /* LaunchScreen.storyboard */,
+				389C87971E6375F7009268B7 /* Info.plist */,
+				389C878F1E6375F7009268B7 /* Tanoura.xcdatamodeld */,
+			);
+			path = Tanoura;
+			sourceTree = "<group>";
+		};
+		389C879F1E6375F7009268B7 /* TanouraTests */ = {
+			isa = PBXGroup;
+			children = (
+				389C87A01E6375F7009268B7 /* TanouraTests.swift */,
+				389C87A21E6375F7009268B7 /* Info.plist */,
+			);
+			path = TanouraTests;
+			sourceTree = "<group>";
+		};
+		389C87AA1E6375F7009268B7 /* TanouraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				389C87AB1E6375F7009268B7 /* TanouraUITests.swift */,
+				389C87AD1E6375F7009268B7 /* Info.plist */,
+			);
+			path = TanouraUITests;
+			sourceTree = "<group>";
+		};
+		389C87BB1E637745009268B7 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */,
+			);
+			name = Coordinators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389C87841E6375F7009268B7 /* Tanoura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389C87B01E6375F7009268B7 /* Build configuration list for PBXNativeTarget "Tanoura" */;
+			buildPhases = (
+				389C87811E6375F7009268B7 /* Sources */,
+				389C87821E6375F7009268B7 /* Frameworks */,
+				389C87831E6375F7009268B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tanoura;
+			productName = Tanoura;
+			productReference = 389C87851E6375F7009268B7 /* Tanoura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		389C879B1E6375F7009268B7 /* TanouraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389C87B31E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraTests" */;
+			buildPhases = (
+				389C87981E6375F7009268B7 /* Sources */,
+				389C87991E6375F7009268B7 /* Frameworks */,
+				389C879A1E6375F7009268B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				389C879E1E6375F7009268B7 /* PBXTargetDependency */,
+			);
+			name = TanouraTests;
+			productName = TanouraTests;
+			productReference = 389C879C1E6375F7009268B7 /* TanouraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		389C87A61E6375F7009268B7 /* TanouraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389C87B61E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraUITests" */;
+			buildPhases = (
+				389C87A31E6375F7009268B7 /* Sources */,
+				389C87A41E6375F7009268B7 /* Frameworks */,
+				389C87A51E6375F7009268B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				389C87A91E6375F7009268B7 /* PBXTargetDependency */,
+			);
+			name = TanouraUITests;
+			productName = TanouraUITests;
+			productReference = 389C87A71E6375F7009268B7 /* TanouraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389C877D1E6375F7009268B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NSMohamedElalfy;
+				TargetAttributes = {
+					389C87841E6375F7009268B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7CD55P55JM;
+						ProvisioningStyle = Automatic;
+					};
+					389C879B1E6375F7009268B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7CD55P55JM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 389C87841E6375F7009268B7;
+					};
+					389C87A61E6375F7009268B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7CD55P55JM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 389C87841E6375F7009268B7;
+					};
+				};
+			};
+			buildConfigurationList = 389C87801E6375F7009268B7 /* Build configuration list for PBXProject "Tanoura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 389C877C1E6375F7009268B7;
+			productRefGroup = 389C87861E6375F7009268B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389C87841E6375F7009268B7 /* Tanoura */,
+				389C879B1E6375F7009268B7 /* TanouraTests */,
+				389C87A61E6375F7009268B7 /* TanouraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389C87831E6375F7009268B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C87961E6375F7009268B7 /* LaunchScreen.storyboard in Resources */,
+				389C87931E6375F7009268B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C879A1E6375F7009268B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C87A51E6375F7009268B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389C87811E6375F7009268B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C87911E6375F7009268B7 /* Tanoura.xcdatamodeld in Sources */,
+				389C87891E6375F7009268B7 /* AppDelegate.swift in Sources */,
+				389C87BA1E6376CA009268B7 /* ApplicationCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C87981E6375F7009268B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C87A11E6375F7009268B7 /* TanouraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389C87A31E6375F7009268B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C87AC1E6375F7009268B7 /* TanouraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		389C879E1E6375F7009268B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389C87841E6375F7009268B7 /* Tanoura */;
+			targetProxy = 389C879D1E6375F7009268B7 /* PBXContainerItemProxy */;
+		};
+		389C87A91E6375F7009268B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389C87841E6375F7009268B7 /* Tanoura */;
+			targetProxy = 389C87A81E6375F7009268B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		389C87941E6375F7009268B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389C87951E6375F7009268B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		389C87AE1E6375F7009268B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		389C87AF1E6375F7009268B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		389C87B11E6375F7009268B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = Tanoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.Tanoura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		389C87B21E6375F7009268B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = Tanoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.Tanoura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		389C87B41E6375F7009268B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = TanouraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.TanouraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tanoura.app/Tanoura";
+			};
+			name = Debug;
+		};
+		389C87B51E6375F7009268B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = TanouraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.TanouraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tanoura.app/Tanoura";
+			};
+			name = Release;
+		};
+		389C87B71E6375F7009268B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = TanouraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.TanouraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tanoura;
+			};
+			name = Debug;
+		};
+		389C87B81E6375F7009268B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7CD55P55JM;
+				INFOPLIST_FILE = TanouraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo7amedelalfy.TanouraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tanoura;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389C87801E6375F7009268B7 /* Build configuration list for PBXProject "Tanoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389C87AE1E6375F7009268B7 /* Debug */,
+				389C87AF1E6375F7009268B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389C87B01E6375F7009268B7 /* Build configuration list for PBXNativeTarget "Tanoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389C87B11E6375F7009268B7 /* Debug */,
+				389C87B21E6375F7009268B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		389C87B31E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389C87B41E6375F7009268B7 /* Debug */,
+				389C87B51E6375F7009268B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		389C87B61E6375F7009268B7 /* Build configuration list for PBXNativeTarget "TanouraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389C87B71E6375F7009268B7 /* Debug */,
+				389C87B81E6375F7009268B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		389C878F1E6375F7009268B7 /* Tanoura.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				389C87901E6375F7009268B7 /* Tanoura.xcdatamodel */,
+			);
+			currentVersion = 389C87901E6375F7009268B7 /* Tanoura.xcdatamodel */;
+			path = Tanoura.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 389C877D1E6375F7009268B7 /* Project object */;
+}
