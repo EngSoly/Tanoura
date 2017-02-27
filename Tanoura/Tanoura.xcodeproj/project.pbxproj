@@ -14,6 +14,19 @@
 		389C87A11E6375F7009268B7 /* TanouraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87A01E6375F7009268B7 /* TanouraTests.swift */; };
 		389C87AC1E6375F7009268B7 /* TanouraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87AB1E6375F7009268B7 /* TanouraUITests.swift */; };
 		389C87BA1E6376CA009268B7 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */; };
+		389C87BD1E6382A7009268B7 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87BC1E6382A7009268B7 /* GenericTableViewController.swift */; };
+		389C87C21E638399009268B7 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87C11E638399009268B7 /* Playlist.swift */; };
+		389C87C41E6383E8009268B7 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87C31E6383E8009268B7 /* Track.swift */; };
+		389C87C61E63866E009268B7 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87C51E63866E009268B7 /* Gradient.swift */; };
+		389C87C81E638679009268B7 /* Gradients.json in Resources */ = {isa = PBXBuildFile; fileRef = 389C87C71E638679009268B7 /* Gradients.json */; };
+		389C87CA1E6386AF009268B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87C91E6386AF009268B7 /* MainViewController.swift */; };
+		389C87CE1E638713009268B7 /* AddTrackCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87CB1E638713009268B7 /* AddTrackCollectionReusableView.swift */; };
+		389C87CF1E638713009268B7 /* TanouraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87CC1E638713009268B7 /* TanouraViewController.swift */; };
+		389C87D01E638713009268B7 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87CD1E638713009268B7 /* TrackCollectionViewCell.swift */; };
+		389C87D41E6397B2009268B7 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87D31E6397B2009268B7 /* AudioEngine.swift */; };
+		389C87D61E63AB49009268B7 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87D51E63AB49009268B7 /* MainCoordinator.swift */; };
+		389C87D81E63AB99009268B7 /* PlaylistsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87D71E63AB99009268B7 /* PlaylistsCoordinator.swift */; };
+		389C87DA1E63ABCB009268B7 /* TracksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C87D91E63ABCB009268B7 /* TracksCoordinator.swift */; };
 		3FA137891E0767285F0A3598 /* Pods_TanouraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE5B95D1582085541EA68C3 /* Pods_TanouraTests.framework */; };
 		A24718DDD8507F3B7A9327A1 /* Pods_Tanoura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37AF0AB2F16CAA78AB237BB /* Pods_Tanoura.framework */; };
 		C70AE68D3D08A1F7B1B0454C /* Pods_TanouraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941B4A8D238E6A32462A8E8 /* Pods_TanouraUITests.framework */; };
@@ -51,6 +64,19 @@
 		389C87AB1E6375F7009268B7 /* TanouraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanouraUITests.swift; sourceTree = "<group>"; };
 		389C87AD1E6375F7009268B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		389C87BC1E6382A7009268B7 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		389C87C11E638399009268B7 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		389C87C31E6383E8009268B7 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		389C87C51E63866E009268B7 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		389C87C71E638679009268B7 /* Gradients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gradients.json; sourceTree = "<group>"; };
+		389C87C91E6386AF009268B7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		389C87CB1E638713009268B7 /* AddTrackCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTrackCollectionReusableView.swift; sourceTree = "<group>"; };
+		389C87CC1E638713009268B7 /* TanouraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanouraViewController.swift; sourceTree = "<group>"; };
+		389C87CD1E638713009268B7 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		389C87D31E6397B2009268B7 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		389C87D51E63AB49009268B7 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		389C87D71E63AB99009268B7 /* PlaylistsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsCoordinator.swift; sourceTree = "<group>"; };
+		389C87D91E63ABCB009268B7 /* TracksCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksCoordinator.swift; sourceTree = "<group>"; };
 		5A917976E08D80C1AB0A9D4D /* Pods-TanouraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanouraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TanouraTests/Pods-TanouraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6941B4A8D238E6A32462A8E8 /* Pods_TanouraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanouraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D20EF47655F0C88AF9A52D3 /* Pods-Tanoura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tanoura.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tanoura/Pods-Tanoura.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,10 +140,15 @@
 		389C87871E6375F7009268B7 /* Tanoura */ = {
 			isa = PBXGroup;
 			children = (
+				389C87D21E638743009268B7 /* Views */,
+				389C87C01E63837E009268B7 /* Models */,
+				389C87D11E638719009268B7 /* Controllers */,
 				389C87BB1E637745009268B7 /* Coordinators */,
 				389C87881E6375F7009268B7 /* AppDelegate.swift */,
+				389C87D31E6397B2009268B7 /* AudioEngine.swift */,
 				389C87921E6375F7009268B7 /* Assets.xcassets */,
 				389C87941E6375F7009268B7 /* LaunchScreen.storyboard */,
+				389C87C71E638679009268B7 /* Gradients.json */,
 				389C87971E6375F7009268B7 /* Info.plist */,
 				389C878F1E6375F7009268B7 /* Tanoura.xcdatamodeld */,
 			);
@@ -146,8 +177,40 @@
 			isa = PBXGroup;
 			children = (
 				389C87B91E6376CA009268B7 /* ApplicationCoordinator.swift */,
+				389C87D51E63AB49009268B7 /* MainCoordinator.swift */,
+				389C87D71E63AB99009268B7 /* PlaylistsCoordinator.swift */,
+				389C87D91E63ABCB009268B7 /* TracksCoordinator.swift */,
 			);
 			name = Coordinators;
+			sourceTree = "<group>";
+		};
+		389C87C01E63837E009268B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				389C87C11E638399009268B7 /* Playlist.swift */,
+				389C87C31E6383E8009268B7 /* Track.swift */,
+				389C87C51E63866E009268B7 /* Gradient.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		389C87D11E638719009268B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				389C87BC1E6382A7009268B7 /* GenericTableViewController.swift */,
+				389C87C91E6386AF009268B7 /* MainViewController.swift */,
+				389C87CC1E638713009268B7 /* TanouraViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		389C87D21E638743009268B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				389C87CB1E638713009268B7 /* AddTrackCollectionReusableView.swift */,
+				389C87CD1E638713009268B7 /* TrackCollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		A0D0C4875120E3815E2F8AF6 /* Frameworks */ = {
@@ -292,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389C87C81E638679009268B7 /* Gradients.json in Resources */,
 				389C87961E6375F7009268B7 /* LaunchScreen.storyboard in Resources */,
 				389C87931E6375F7009268B7 /* Assets.xcassets in Resources */,
 			);
@@ -456,9 +520,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389C87D41E6397B2009268B7 /* AudioEngine.swift in Sources */,
 				389C87911E6375F7009268B7 /* Tanoura.xcdatamodeld in Sources */,
+				389C87D81E63AB99009268B7 /* PlaylistsCoordinator.swift in Sources */,
 				389C87891E6375F7009268B7 /* AppDelegate.swift in Sources */,
+				389C87BD1E6382A7009268B7 /* GenericTableViewController.swift in Sources */,
+				389C87D01E638713009268B7 /* TrackCollectionViewCell.swift in Sources */,
 				389C87BA1E6376CA009268B7 /* ApplicationCoordinator.swift in Sources */,
+				389C87CF1E638713009268B7 /* TanouraViewController.swift in Sources */,
+				389C87CE1E638713009268B7 /* AddTrackCollectionReusableView.swift in Sources */,
+				389C87C21E638399009268B7 /* Playlist.swift in Sources */,
+				389C87DA1E63ABCB009268B7 /* TracksCoordinator.swift in Sources */,
+				389C87CA1E6386AF009268B7 /* MainViewController.swift in Sources */,
+				389C87D61E63AB49009268B7 /* MainCoordinator.swift in Sources */,
+				389C87C41E6383E8009268B7 /* Track.swift in Sources */,
+				389C87C61E63866E009268B7 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -589,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
