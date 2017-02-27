@@ -18,7 +18,6 @@ import SwiftyTimer
 class MainViewController: UIViewController {
   
   struct Identifiers {
-    static let EmbedTanouraSegue = "EmbedTanouraVC"
     static let TrackCellID = "TrackCellID"
     static let AddTrackHeaderID = "AddTracksID"
   }
@@ -42,7 +41,10 @@ class MainViewController: UIViewController {
     layout.minimumLineSpacing = 5
     
     let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
-    collectionView.backgroundColor = FlatWhite()
+    collectionView.register(AddTrackCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: Identifiers.AddTrackHeaderID)
+    collectionView.register(TrackCollectionViewCell.self, forCellWithReuseIdentifier: Identifiers.TrackCellID)
+
+    collectionView.backgroundColor = .white
     return collectionView
   }()
   
@@ -119,11 +121,8 @@ class MainViewController: UIViewController {
     
     tracksCollectionView.dataSource = self
     tracksCollectionView.delegate = self
-    tracksCollectionView.register(AddTrackCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader , withReuseIdentifier: Identifiers.AddTrackHeaderID)
-    tracksCollectionView.register(TrackCollectionViewCell.self, forCellWithReuseIdentifier: Identifiers.TrackCellID)
     view.addSubview(tracksCollectionView)
     
-  
     openTracksBtn.addControlEvent(.touchUpInside) { (dynamicButton: DynamicButton!) in
       let offset = self.isOpen ? 0:80
       dynamicButton.style = self.isOpen ? DynamicButtonStyle.caretUp:DynamicButtonStyle.caretDown
